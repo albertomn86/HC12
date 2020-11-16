@@ -200,7 +200,7 @@ String HC12::receive(unsigned int timeout, char end)
     }
 
     if (!timeout) {
-        return;
+        return "";
     }
 
     String msg;
